@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+    width: auto;
+    margin: 0%;
+}
+
+body section{
+    height: auto;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*Header*/
+.encabezado{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.encabezado #puntos{
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.encabezado a{
+    padding-left: 15px;
+}
+
+.encabezado #foto{
+    border: 1px solid #ccc;
+    z-index: 3;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.encabezado #foto:hover{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0);
+}
+
+/*Logo*/
+
+#logo{
+    margin: auto;
+    width: 330px;
+    height: 120px;
+}
+
+/*Barra búsqueda*/
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-search{
+    background-position: center;
+    top: 82%;
+    left: 35%;
+    width: 580px;
+}
+
+main #input-search #texto{
+    width: 100%;
+    height: 44px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    z-index: 3;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+main #input-search #texto:hover{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+/*Buscar y Suerte*/
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=button]{
+    background-color: #f8f9fa;
+    border: none;
+    color: black;
+    padding: 16px 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type=button]:hover{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-top: 200px;
+}
+
+.footeri{
+    width: fit-content;    
+}
+
+.footerd{
+    width: fit-content;
+}
